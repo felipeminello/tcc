@@ -1,0 +1,83 @@
+@charset "iso-8859-1";
+
+/*********************** GLOBAL ***********************/
+body,td,th {font-family: Verdana, Geneva, sans-serif;font-size: 11px;}
+body {margin:0; padding: 18px 0 18px 0; background-color: #222222;}
+a {color: #fff;text-decoration: none;}
+a:hover {text-decoration: underline;color: #fff;}
+
+label.error{font-weight: bold; color:#C00; font-style:italic;}
+div#ret_login{ padding: 10px;text-align:center; font-size: 14px; font-weight: bold; margin-top: 20px; }
+.sucesso {border: 1px solid #090; background-color: #CBFECF; text-align:center; color:#090;}
+.erro {border: 1px solid #900; background-color: #FFCCCD; color:#900;}
+
+.quebra{clear: both;}
+
+/*********************** TOPO ***********************/
+div#cabecalho{background-color: #A4C6FF; height: 25px; padding: 5px; padding-top: 0; padding-bottom: 0; text-align: center;}
+div#cabecalho div.content{height: 25px; width: 990px; border-left: 1px solid #000; border-right: 1px solid #000; border-top: 1px solid #000; padding: 0 3px 0 0; margin:auto;}
+
+div#cabecalho div#menu{margin-top: 6px; float:left;}
+div#cabecalho div#menu span{margin-right: 15px;}
+div#cabecalho a.menu{border: none; padding: 6px 15px 5px 15px;}
+div#cabecalho a.menu:hover{text-decoration: none; background-color:#C33;}
+
+div#cabecalho div#busca{display:block; text-align:right; padding-top: 2px;}
+div#cabecalho div#busca input#fbusca{font-family:Verdana, Geneva, sans-serif; font-size: 10px; padding: 3px; border: 1px solid #333; width: 250px;}
+div#cabecalho div#busca input#fenvia{font-family:Verdana, Geneva, sans-serif; font-size: 10px; padding: 2px; border: 1px solid #333; width: 50px;}
+
+/*********************** CONTEUDO ***********************/
+div#conteudo{text-align: center;}
+div#conteudo #dados{background-color:#FFF; width:991px; margin:auto; border-left: 1px solid #666; border-right: 1px solid #666; border-bottom: 1px solid #666; padding-right: 2px; text-align: left; overflow:hidden;}
+div#conteudo #dados #left{float: left; width: 780px;}
+div#conteudo #dados #menu_esq {float:left; margin-right: 5px;}
+div#conteudo #dados #menu_esq ul#links {color: #f00; list-style-type: none; margin-left 5px;}
+div#conteudo #dados #nome{font-weight:bold; padding: 5px; text-align: left; font-size: 1.8em;}
+div#conteudo #dados #info{padding: 5px; text-align: left;}
+div#conteudo #dados #info .info{display: block; margin-bottom: 2px;}
+div#conteudo #dados #envia_msgm{text-align: left; margin: 20px 60px 0 0;}
+div#conteudo #dados #ultimo_login{font-style:italic;text-align: left; margin-top: 15px; margin-right:8px;}
+div#conteudo #dados #envia_msgm .btn_msgm{background-color: #C0C; padding: 12px; cursor:pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; behavior: url('border-radius.htc'); border: 3px solid #000;}
+div#conteudo #dados #envia_msgm .btn_msgm:hover{background-color: #90F;border: 3px solid #999;}
+
+div#conteudo #dados #arquivos{padding: 2px; padding-right: 2px; text-align: left; position: relative;}
+div#conteudo #dados #arquivos .titulo{font-weight:bold; margin-bottom: 2px; display:block;}
+div#conteudo #dados #arquivos .arquivo{margin-bottom: 2px; display: block; margin-left: 5px;}
+
+div.titulo{font-size:2em; font-weight:bold; float: right; font-style: italic;}
+div.sub-titulo{font-size:1em; font-weight:bold; float: right; font-style: italic;}
+
+
+/*********************** LATERAIS ***********************/
+div#conteudo #dados #direita{width:197px;padding:3px;float:right; border-left: 1px solid #999; position: relative; min-height: 250px;}
+div#conteudo #dados #direita h1.tit_min{font-size: 1.2em; margin:0; text-align: center;}
+div#conteudo #dados #direita ul li{margin-bottom: 5px;}
+
+/*********************** LOGIN ***********************/
+div.login{margin-top: 100px; text-align:center; background-color: #080808; height: 70px; padding-top: 25px;}
+form#login legend {font-size: 1.6em; font-weight: bold;}
+form#login fieldset{ border:none;}
+form#login label{ color:#9e9e9e;}
+form#login input,select,textarea{border: 1px solid #999; font-family:Verdana, Geneva, sans-serif; font-size: 1.4em; padding: 6px; background-color: #fff;}
+form#login input {font-weight:bold;}
+form#login #fenvia{border-bottom: 1px solid #666; border-right: 1px solid #666; margin-left: 20px; cursor: pointer; font-weight: bold; width: 100px;}
+form#login label{margin-left: 20px; font-size: 1.8em;}
+div.login div.esqueci{margin-top: 8px; text-align: center;}
+
+/*********************** MINHA CONTA ***********************/
+div#conteudo div#dados div.form_minha_conta{margin: 8px;}
+div#conteudo div#dados div.form_minha_conta form#minha_conta label{float: left; width: 150px; text-align: right; margin-right: 20px;}
+div#conteudo div#dados div.form_minha_conta form#minha_conta input{font-family:Verdana, Geneva, sans-serif; font-size: 1em; border: 1px solid #006; padding: 2px; width: 200px; display: block; margin-bottom: 4px;}
+div#conteudo div#dados div.form_minha_conta form#minha_conta input.btn{width: 50px; margin-left: 324px; margin-top: 30px;}
+div#conteudo div#dados div.form_minha_conta span.password_strength{float: right;}
+
+/*********************** MEUS GRUPOS ***********************/
+div#conteudo div#dados ul#lista_grupos li {margin-bottom: 15px;}
+div#conteudo div#dados ul#lista_grupos span.titulo {display: block; font-weight: bold; background-color: #dbdbdb; padding: 5px 0 5px 3px;; margin-bottom: 2px;}
+div#conteudo div#dados ul#lista_grupos {list-style: none; margin-left: -38px;}
+div#conteudo div#dados ul#lista_grupos table {background-color: #CDCDCD;}
+div#conteudo div#dados ul#lista_grupos table th{border: 1px solid #FFF; padding: 2px; background-color: #b0d9ff;}
+div#conteudo div#dados ul#lista_grupos table td{padding: 2px;}
+
+/*********************** RODAPÉ ***********************/
+div#rodape{background-color: #A4C6FF; padding: 5px; text-align:right;}
